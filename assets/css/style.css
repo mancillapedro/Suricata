@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+:root{
+    --white: #fff;
+    --pink: #e83e8c;
+    --info: #17a2b8;
+    --text-color: #212529;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    color: var(--text-color);
+}
+
+.bg-color-pink{
+    background-color: var(--pink);
+}
+
+.logo-navbar{
+    height: 3.25rem;
+}
+.color-white{
+    color: var(--white) !important;
+}
+
+h2{
+    font-size: 2.25rem;
+    color: #707070;
+}
+
+.card-body h5{
+    font-size: 1.125rem;
+}
+
+.imagen-card{
+    width: 14.5rem !important;
+}
+
+.size-li li, .size-li a{
+    font-size: 0.75rem;
+}
+
+.icons-section{
+    height: 10.5rem;
+    background-color: var(--info);
+    font-size: 2.5rem;
+    color: var(--white);
+}
+.icons-section i{
+    font-size: 3.25rem;
+}
+footer img{
+    height: 6.25rem;
+}
+
+@media (min-width: 1200px) {
+    h2{
+        font-size: 3.75rem;
+    }
+    .imagen-card{
+        width: 15.5rem !important;
+    }
+}
